@@ -5,10 +5,10 @@ This is a VSCode plugin for Hymmnos syntax support, designed for syntax highligh
 ## Screenshot
 
 Standard Mode:  
-![screenshot](images/screenshot_standard.png)
+<img src="images/screenshot_standard.png" alt="screenshot" width="350" />
 
 Pastalie Mode:  
-![screenshot](images/screenshot_pastalie.png)
+<img src="images/screenshot_pastalie.png" alt="screenshot" width="350" />
 
 ## Features
 
@@ -21,12 +21,17 @@ Pastalie Mode:
 
 ## Why Hymmnos?
 
-This is a fun project—take it seriously and you lose!
-I simply wanted to see if it was possible to add custom syntax implementation to VSCode, and I chose Hymmnos syntax as a practice. Thus, this plugin was born.
+This is a fun project—take it seriously and you lose!  
+I simply wanted to see if it was possible to add custom syntax implementation to VSCode, and I chose Hymmnos syntax as a practice.  
+Thus, this plugin was born.  
 
-Hymmnos is a fictional language from the game series "Ar tonelico," with relatively straightforward grammatical rules. Its unique phonetic and conceptual styles set it apart from other fictional languages. The language of Pastalie is nearly unreadable when read directly, but its structure is highly regular, making it very suitable for practice with syntax highlighting. The language itself has a limited vocabulary and is not suitable for everyday communication. However, due to its phonetic nature, it produces beautifully lyrical effects, making it ideal for songwriting, poetry, and other artistic creations.
+Hymmnos is a fictional language from the game series "Ar tonelico," with relatively straightforward grammatical rules.  
+Its unique phonetic and conceptual styles set it apart from other fictional languages.  
+The language of Pastalie is nearly unreadable when read directly, but its structure is highly regular, making it very suitable for practice with syntax highlighting.  
+The language itself has a limited vocabulary and is not suitable for everyday communication.  
+However, due to its phonetic nature, it produces beautifully lyrical effects, making it ideal for songwriting, poetry, and other artistic creations.  
 
-**Have fun!**
+**Have fun!**  
 
 ----
 
