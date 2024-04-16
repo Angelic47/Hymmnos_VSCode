@@ -31,6 +31,10 @@ The language of Pastalie is nearly unreadable when read directly, but its struct
 The language itself has a limited vocabulary and is not suitable for everyday communication.  
 However, due to its phonetic nature, it produces beautifully lyrical effects, making it ideal for songwriting, poetry, and other artistic creations.  
 
+What? You said you'd never pass the Hymmnos Code authentication?  
+Well, now the *Song Magic Servers* are all set up by ourselves...  
+under the protection of **GPLv3**, the highest authority of the tower is now yours!  
+
 **Have fun!**  
 
 ----
@@ -64,5 +68,8 @@ However, due to its phonetic nature, it produces beautifully lyrical effects, ma
 Hymmnos是游戏《Ar tonelico》系列中的虚构语言，其语法规则并不复杂。其独特的感音、想音风格使其和其他虚构语言有所不同。  
 该语言的新约律直接阅读接近不可读状态，但结构十分规整，非常适合用于语法高亮显示的练手。  
 其语言本身词汇量较少，无法用作日常的沟通交流。但是，正因为其感音语言的特性，其吟唱效果十分唯美，可以用作歌词填词、诗歌创作等。  
+
+啥？你说过不掉Hymmnos Code的身份认证？  
+嘛，现在*诗魔法服务器*都是自己搭的啦……在**GPLv3**的守护下，塔的最大的权限交给你啦!  
 
 **祝玩得开心!**  
