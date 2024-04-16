@@ -1,65 +1,63 @@
 # hymmnos-language-support README
 
-This is the README for your extension "hymmnos-language-support". After writing up a brief description, we recommend including the following sections.
+This is a VSCode plugin for Hymmnos syntax support, designed for syntax highlighting in Hymmnos.
+
+## Screenshot
+
+Standard Mode:  
+![screenshot](images/screenshot_standard.png)
+
+Pastalie Mode:  
+![screenshot](images/screenshot_pastalie.png)
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+ - [x] Syntax highlighting for Hymmnos
+ - [x] Supports both Standard and Pastalie modes
+ - [x] Different colors for different parts of speech
+ - [x] Supports if statements in Pastalie mode `Xc=foo->bar`
+ - [x] Supports strings (double quotes) `:/foo bar/:`
+ - [x] Supports comments, any content not in Hymmnos syntax will be marked as a comment
 
-For example if there is an image subfolder under your extension project workspace:
+## Why Hymmnos?
 
-\!\[feature X\]\(images/feature-x.png\)
+This is a fun project—take it seriously and you lose!
+I simply wanted to see if it was possible to add custom syntax implementation to VSCode, and I chose Hymmnos syntax as a practice. Thus, this plugin was born.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Hymmnos is a fictional language from the game series "Ar tonelico," with relatively straightforward grammatical rules. Its unique phonetic and conceptual styles set it apart from other fictional languages. The language of Pastalie is nearly unreadable when read directly, but its structure is highly regular, making it very suitable for practice with syntax highlighting. The language itself has a limited vocabulary and is not suitable for everyday communication. However, due to its phonetic nature, it produces beautifully lyrical effects, making it ideal for songwriting, poetry, and other artistic creations.
 
-## Requirements
+**Have fun!**
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+----
 
-## Extension Settings
+# hymmnos-language-support README
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+这是Hymmnos语法支持的VSCode插件，用于Hymmnos语法高亮显示。  
 
-For example:
+## Screenshot
 
-This extension contributes the following settings:
+标准律：  
+![screenshot](images/screenshot_standard.png)
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+新约律：  
+![screenshot](images/screenshot_pastalie.png)
 
-## Known Issues
+## 功能特性
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+ - [x] Hymmnos语法高亮显示  
+ - [x] 同时支持标准律 / 新约律  
+ - [x] 对不同的词性拥有不同的颜色标注  
+ - [x] 支持新约律if语句 `Xc=foo->bar`
+ - [x] 支持字符串（双引号） `:/foo bar/:`
+ - [x] 支持注释，任何不是Hymmnos语法的内容都会被标记为注释  
 
-## Release Notes
+## 为什么要Hymmnos
 
-Users appreciate release notes as you update your extension.
+这是一个整活项目，认真你就输啦！  
+我纯粹就是想看看能不能给VSCode加一个自定义语法实现，然后顺便拿Hymmnos语法来练手，就有了这个插件。  
 
-### 1.0.0
+Hymmnos是游戏《Ar tonelico》系列中的虚构语言，其语法规则并不复杂。其独特的感音、想音风格使其和其他虚构语言有所不同。  
+该语言的新约律直接阅读接近不可读状态，但结构十分规整，非常适合用于语法高亮显示的练手。  
+其语言本身词汇量较少，无法用作日常的沟通交流。但是，正因为其感音语言的特性，其吟唱效果十分唯美，可以用作歌词填词、诗歌创作等。  
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**祝玩得开心!**  
