@@ -1,0 +1,10 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "scopeName": "source.pronoun.hymn",
+    "patterns": [
+        {
+            "match": "\\b(?i)(harr|harra|her|herr|herra|sor|yorr|yorra)\\b",
+            "name": "pronoun.hymn"
+        }
+    ]
+}

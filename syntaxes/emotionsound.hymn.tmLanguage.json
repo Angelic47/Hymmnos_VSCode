@@ -1,0 +1,18 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "scopeName": "source.emotionsound.hymn",
+    "patterns": [
+        {
+            "match": "\\b(?i)(Rrha|Was|Wee|Fou|Ma|Nn)\\b",
+            "name": "level1.emotionsound.hymn"
+        },
+        {
+            "match": "\\b(?i)(i|yea|waa|paks|num|ki|wol|apea|au|granme|touwaka|quel|yant|lau|guwo|zeez|jyel|zweie)\\b",
+            "name": "level2.emotionsound.hymn"
+        },
+        {
+            "match": "\\b(?i)(ga|ra|erra|wa|gaya|gagis)\\b",
+            "name": "level3.emotionsound.hymn"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "scopeName": "source.adverb.hymn",
+    "patterns": [
+        {
+            "match": "\\b(?i)(acra|an|celle|elye|enerel|enrer|jam|llizz|na|nafan|oucc|pitod|presia|re|rol|tienar|vl|xe|xl|yanje|yos|yuez|zess|zz)\\b",
+            "name": "adverb.hymn"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Hymmnos",
+	"patterns": [
+		{
+			"include": "#centralstand"
+		}
+	],
+	"repository": {
+		"centralstand": {
+			"patterns": [
+				{
+					"include": "source.string.hymn"
+				},
+				{
+					"include": "source.emotionverb.hymn"
+				},
+				{
+					"include": "source.emotionsound.hymn"
+				},
+				{
+					"include": "source.intj.hymn"
+				},
+				{
+					"include": "source.adverb.hymn"
+				},
+				{
+					"include": "source.conjunction.hymn"
+				},
+				{
+					"include": "source.noun.hymn"
+				},
+				{
+					"include": "source.verb.hymn"
+				},
+				{
+					"include": "source.preposition.hymn"
+				},
+				{
+					"include": "source.adjective.hymn"
+				},
+				{
+					"include": "source.pronoun.hymn"
+				},
+				{
+					"include": "source.symbol.hymn"
+				}
+			]
+		}
+	},
+	"scopeName": "source.hymn"
+}

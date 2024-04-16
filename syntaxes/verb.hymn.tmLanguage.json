@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "scopeName": "source.verb.hymn",
+    "patterns": [
+        {
+            "match": "\\b(?i)(accrroad|afezeria|arsye|asyar|aterra|ates|aulla|bansh|beja|bexm|biron|cause|cenjue|cexm|chs|chsee|coall|crannidale|crushue|deata|degle|delij|dest|dewee|dople|drone|echrra|ee|enclone|endia|ene|enegd|enter|eta|exec|faja|famfa|ferda|fernia|firle|flare|flip|fogabe|frissoner|frreie|ftt|fulual|fusya|gaunji|got|gran|grandus|grlanza|grruw|guaysu|guol|gyen|gyengyat|gyusya|haf|harmon|hartes|heighte|houd|hyma|ini|irs|jass|jastil|karf|keen|khal|kiafa|kil|knawa|kneet|koffl|ks|kyll|lapo|lautyca|leat|lhasya|linen|lurrea|manafaln|melenas|meso|messe|murfan|naja|nedle|neee|neia|nepo|netvear|nha|nille|nooge|nozess|ogbl|ousye|pagle|pak|pakz|papulipua|parge|pat|paul|pecee|pic|pilt|pomb|porter|pyuf|quen|raklya|rana|rasse|reen|rifaien|rinc|riomo|ruinie|ryushe|sallogna|sarrifis|sash|savath|selena|sik|siss|slep|slepir|sonwe|ssvid|stel|stelled|suwant|syast|synk|syunaht|tanta|tarfe|tasyue|tek|teyys|tictim|tie|tilanta|trina|ugi|unloee|urr|vaffa|valwa|viss|vit|waath|walaka|wassee|watt|wearequewie|weel|werlwe|xest|yaha|yanwe|yart|yaserwe|yassa|yatse|yehar|yerwe|yesse|yosyua|yulun|zaffur|zahha|zarle|zassyen|zenva|zethpa)\\b",
+            "name": "verb.hymn"
+        },
+        {
+            "match": "\\b(?i)(araus|chanti|chiess|clalliss|deggeez|discest|engassya|enne|fowrlle|gauzewiga|geeow|giz|handeres|hymme|konla|kouf|kvvia|manafeeze|morto|nyamo|phyue|prasrity|quals|quive|race|rippllys|skit|sol|tafane|uteu|wael|warce|zodal)\\b",
+            "name": "noun.verb.hymn"
+        }
+    ]
+}

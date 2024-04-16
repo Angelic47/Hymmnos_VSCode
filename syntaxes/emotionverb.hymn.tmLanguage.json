@@ -1,0 +1,4000 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "scopeName": "source.emotionverb.hymn",
+    "patterns": [
+        {
+            "match": "\\b(x)([L]{0,1}[Y]{0,1}[AEIOUN.])\\b",
+            "name": "subject_identifier.emotionverb.hymn",
+            "captures": {
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                }
+            }
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(a)(LY|Y){0,1}([AEIOUN.]{0,1})(u)(LY|Y){0,1}([AEIOUN.]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "a_u_k.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(c)(LY|Y){0,1}([AEIOUN.]{0,1})(z)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "c_z.length2.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(d)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "d_n.length2.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(d)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(g)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "d_n_g.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(d)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "d_r_s_n.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(d)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "d_s_s_n.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(d)(LY|Y){0,1}([AEIOUN.]{0,1})(z)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "d_z.length2.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(f)(LY|Y){0,1}([AEIOUN.]{0,1})(p)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "f_p_n.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(f)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "f_r_l.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(f)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "f_s.length2.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(f)(LY|Y){0,1}([AEIOUN.]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "f_w_r.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(f)(LY|Y){0,1}([AEIOUN.]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "f_w_r_n.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(g)(LY|Y){0,1}([AEIOUN.]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "g_k_n.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(g)(LY|Y){0,1}([AEIOUN.]{0,1})(v)(LY|Y){0,1}([AEIOUN.]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "g_v_w.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(g)(LY|Y){0,1}([AEIOUN.]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(f)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "g_w_f_r.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(g)(LY|Y){0,1}([AEIOUN.]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "g_w_n.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(h)(LY|Y){0,1}([AEIOUN.]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "h_k_t_t.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(h)(LY|Y){0,1}([AEIOUN.]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "h_l_s_s.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(h)(LY|Y){0,1}([AEIOUN.]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "h_m_m_r.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(h)(LY|Y){0,1}([AEIOUN.]{0,1})(p)(LY|Y){0,1}([AEIOUN.]{0,1})(p)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "h_p_p.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(h)(LY|Y){0,1}([AEIOUN.]{0,1})(p)(LY|Y){0,1}([AEIOUN.]{0,1})(ps)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "h_p_ps.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(h)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "h_r_n_t.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(h)(LY|Y){0,1}([AEIOUN.]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "h_w_s_s.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(j)(LY|Y){0,1}([AEIOUN.]{0,1})(d)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "j_d_r.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(j)(LY|Y){0,1}([AEIOUN.]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(j)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "j_l_j.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(j)(LY|Y){0,1}([AEIOUN.]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "j_l_r.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(j)(LY|Y){0,1}([AEIOUN.]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "j_w.length2.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(j)(LY|Y){0,1}([AEIOUN.]{0,1})(z)(LY|Y){0,1}([AEIOUN.]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "j_z_t.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(f)(LY|Y){0,1}([AEIOUN.]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "k_f_k_k.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "k_r.length2.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(v)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "k_v_n_r.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(v)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "k_v_r.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "l_k_k.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "l_l_n.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(c)(LY|Y){0,1}([AEIOUN.]{0,1})(a)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "l_n_c_a.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(a)(LY|Y){0,1}([AEIOUN.]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "m_a_m.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(f)(LY|Y){0,1}([AEIOUN.]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "m_f_l.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(g)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "m_n_g.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "m_r_r.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(y)(LY|Y){0,1}([AEIOUN.]{0,1})(y)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "m_t_y_y.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(d)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "n_d_n.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(e)(LY|Y){0,1}([AEIOUN.]{0,1})(g)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "n_e_g.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "n_m_l.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "n_t_n.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(p)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "p_s_w_t.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(q)(LY|Y){0,1}([AEIOUN.]{0,1})(g)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "q_g_s.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(q)(LY|Y){0,1}([AEIOUN.]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "q_l_s.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(f)(LY|Y){0,1}([AEIOUN.]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "r_f_m.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(f)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "r_f_r_m.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(y)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "r_l_t_y.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "r_w.length2.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "s_l.length2.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(y)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "s_l_y.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "s_n_k_k.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "s_s_w.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(h)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "t_h_s.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(d)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "t_k_d.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "t_n.length2.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "t_n_m_n.length4.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "t_r_m.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(v)(LY|Y){0,1}([AEIOUN.]{0,1})(a)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "v_a.length2.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(v)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(k)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "v_s_k.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(v)(LY|Y){0,1}([AEIOUN.]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "v_t.length2.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(f)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "w_f.length2.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(h)(LY|Y){0,1}([AEIOUN.]{0,1})(h)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "w_h_h.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "w_n_s.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(l)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "w_r_l.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(r)(LY|Y){0,1}([AEIOUN.]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "w_r_m.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "w_s.length2.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(s)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "w_s_s.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "16": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "17": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "18": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "19": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "20": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "21": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(w)(LY|Y){0,1}([AEIOUN.]{0,1})(j)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(c)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "w_w_j_n_c.length5.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(x)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "x.length1.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(x)(LY|Y){0,1}([AEIOUN.]{0,1})(y)(LY|Y){0,1}([AEIOUN.]{0,1})(n)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "x_y_n.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(y)(LY|Y){0,1}([AEIOUN.]{0,1})(m)(LY|Y){0,1}([AEIOUN.]{0,1})(q)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "y_m_q.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(y)(LY|Y){0,1}([AEIOUN.]{0,1})(y)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "y_y.length2.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(y)(LY|Y){0,1}([AEIOUN.]{0,1})(z)(LY|Y){0,1}([AEIOUN.]{0,1})(t)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "y_z_t.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "5": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "6": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "7": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "8": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "9": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "10": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "11": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "12": {
+                    "name": "wantform.emotionverb.hymn"
+                },
+                "13": {
+                    "name": "nounform.emotionverb.hymn"
+                },
+                "14": {
+                    "name": "passiveform.emotionverb.hymn"
+                },
+                "15": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN]{0,1})(z)(LY|Y){0,1}([AEIOUN.]{0,1})(z)(LY|Y){0,1}([AEIOUN.]{0,1})(x)(LY|Y){0,1}([AEIOUN.]{0,1})(aye){0,1}(za){0,1}(eh){0,1}(_[a-zA-Z]+){0,1}\\b",
+            "name": "z_z_x.length3.emotionverb.hymn"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "emotionrange.emotionverb.hymn"
+                },
+                "2": {
+                    "name": "emotionvowel.emotionverb.hymn"
+                },
+                "3": {
+                    "name": "emotionverb.emotionverb.hymn"
+                },
+                "4": {
+                    "name": "ownership.emotionverb.hymn"
+                }
+            },
+            "match": "\\b(LY|Y){0,1}([AEIOUN])(0|1|10|100|1000|10000|2|3|4|5|6|7|8|9|accrroad|acra|adyya|afezeria|ag|aiph|aje|akata|ale|alroen|alroetsue|ammue|amyure|an|anw|apea|ar|araus|arhou|arrya|arsye|art|asyar|aterra|ates|au|aulla|ayulsa|balduo|bale|bansh|basilic|bautifal|beja|beng|bengnuih|bexm|biron|bister|boches|boh|brinch|briyante|briyua|burle|byui|calamila|cause|cecet|ceku|celetille|celle|cenjue|cerchio|cest|cexm|chanti|chiess|ChronicleKey|chs|chsee|chyet|cia|ciel|ciellenne|cietta|clalliss|clamour|clare|clemezen|clyncye|coall|colga|colgen|coree|corle|corpu|crannidale|cremia|crown|crudea|crushue|cupla|cyuie|cyurio|daedu|daf|dand|dauan|dauane|dazua|dea|deata|deggeez|degle|dejuy|deleir|delij|den|denera|der|desfel|dest|deu|dewee|dgal|dhezeall|Dia|diasee|didalia|dilete|discest|dius|diviega|dje|dn|doodu|dople|dor|dorn|dornpica|dralee|drone|dsier|du|dyya|dyyal|eazas|echrra|ee|eetor|eje|elle|elye|en|enclone|endia|ene|enegd|enerel|enesse|engassya|engua|enne|enrer|enter|envied|enw|erlla|erphy|erra|ess|et|eta|etealune|eterne|eux|ewle|exali|exec|faf|faiy|faja|falfa|famfa|fanalea|fandel|fane|fatele|fatere|fau|faura|fayra|fedyya|fee|ferda|fernia|fhau|fhauri|fhyu|firanzia|firga|firle|flare|flip|flip|fluy|focs|fogabe|folten|forgandal|forlindel|forlinden|Fou|foul|fountaina|fowrlle|frawr|frawrle|frissoner|frreie|fs|ftt|fulual|fusya|futare|fwal|fwillra|ga|gagis|ganna|garlden|gasar|gat|gatyunla|gatyuny|gaunji|gauto|gauv|gauzewiga|gaya|geeow|getrra|gfine|gigeadeth|giue|giz|gkgul|glansee|glasden|goa|gool|got|gott|govan|govaz|gral|gran|grandee|grandus|granme|grave|grlanza|grow|grrena|grruw|guard|guatrz|guaysu|guol|guwo|gyaje|gyajlee|gyas|gyen|gyenel|gyengyat|gyuss|gyusya|haf|Haibanation|handeres|hao|harmon|Harmonious|harphe|harr|harra|hars|hartes|harton|has|hasyu|heath|heetha|heighte|her|here|herr|herra|hers|hes|hieg|hierle|hiew|hiewi|hiralg|hopb|houd|how|hueaf|hyear|hyma|hymma|hymme|hymmne|hymmnos|hynne|hyzik|i|iasien|ides|idesy|ieeya|iem|Implanta|infel|inferiare|ini|innna|irs|jam|jambea|jass|jastil|jefea|jenge|jenhah|jouee|jue|jyel|kajya|kapa|karf|keen|keenis|keg|khal|ki|kiafa|kiakkya|kiala|kierre|kil|knawa|kneet|koffl|konla|koora|kouf|ks|kuhle|kvvia|kvyeire|kyll|la|lamenza|lamenzeo|lapo|lasye|lau|lautyca|layy|leaff|leat|lequera|lhasya|li|Linca|linen|lir|lirle|llizz|lof|lonfa|lornya|loss|lulurnya|lurrea|lusye|lyafre|lyrnya|lyuma|Ma|maen|mahin|Manac|manaf|manafaln|manafeeze|maoh|marfo|marta|maun|maxim|maya|mea|mean|meaql|melenas|melifan|melvaz|memora|meo|merfa|merra|meryu|meso|messe|Meta|Metafalica|milra|mirie|morto|murfan|murfanare|mutrk|na|naave|nafa|nafan|naflansee|naja|near|neath|nedle|neee|neen|neia|nene|nepo|netvear|nezz|nha|nhaf|nille|Nn|nnoini|noce|noes|noglle|nooge|nor|nosaash|nozess|nuih|num|nx|nyamo|nyamonyas|nyanyas|nyasri|nyasyamorina|ocurp|ogbl|olo|omness|omnis|oriye|orn|orviclle|oter|oucc|oure|ousye|ouvyu|ouwua|oz|pagle|Paja|pak|paks|pakz|papana|papas|papulipua|parce|parge|parith|pat|paul|pauwee|pauwel|pawr|pecee|Phantasmagoria|phira|phiz|phyue|pic|pikca|pilt|pipel|pipit|pirtue|pitod|plina|poe|polon|pomb|pono|pop|porter|prasrity|presia|prooth|pruna|ptrapica|ptrapile|pupe|pyuf|qejyu|qoga|qraffa|quals|quel|quen|quesa|quivale|quive|quowjaz|ra|race|raklya|rana|rannef|rasse|raudl|rawah|re|reen|repoear|reta|rete|revatail|reveris|revm|rhaplanca|ridalnae|rifaiah|rifaien|rinc|riomo|rippllys|riura|rivire|riya|rol|roon|rooshellan|rosa|Rrha|rudje|ruinie|ruinien|rum|ryewa|ryushe|ryusse|sa|saash|sabl|sacra|sallogna|sanctum|sar|sara|sarla|sarr|sarrifis|sarsa|sash|sasye|savath|sechel|sefanl|selena|sephaje|sev|sguela|shazra|sheak|sheaken|shefra|shell|shellan|shen|shyun|sial|siance|siann|sielp|sik|siss|skit|slep|slepir|so|soare|sol|sonwe|sor|sos|sosar|sphaela|sphilar|spiritum|spitze|ssvid|stel|stelled|Suspend|suwant|syalea|syana|syast|syec|syezo|synk|syunaht|tafane|talam|tanta|tapa|tarfe|targue|tasyue|tatakaria|tek|tes|teyys|ther|tictim|tie|tie|tienar|tilanta|tim|titia|titil|titilia|toe|tonelico|tou|touwaka|trina|ttu|ture|tussu|tyui|tyuss|ugi|uje|ujes|unloee|urgn|urr|ut|uteu|vaffa|vale|valwa|van|varda|vega|vege|vianchiel|viega|Viena|vigiga|vinan|vine|viss|vit|viuy|vl|vonn|wa|waa|waath|waats|wael|walaen|walaka|walasye|walphish|warce|ware|warma|wart|Was|wasara|wase|wassa|wassee|watt|waze|we|weak|weaken|weal|wearequewie|Wee|weel|ween|wefa|werllra|werlwe|whai|whalt|wharn|whou|wi|wiene|willie|wim|windiling|wirtamarls|wis|wol|won|xava|xe|xel|xest|xevxl|xl|xorg|yaha|yanje|yant|yanwe|yanyaue|yart|yaserwe|yasra|yassa|yatse|yea|yeal|yeeel|yehah|yehar|yerwe|yesse|yetere|yor|yora|yorr|yorra|yos|yosyua|yuez|yulun|yura|zaam|zadius|zaffur|zahha|zalez|zarle|zarnn|zash|zassyen|zauve|zeeth|zenva|zess|zethpa|zetsfy|zixxa|zodal|zodaw|zuieg|zweie|zwihander|zz)(_[a-zA-Z]+){0,1}\\b",
+            "name": "allownitems.emotionverb.hymn"
+        },
+        {
+            "match": "\\b(za)\\b",
+            "name": "passiveform.emotionverb.hymn"
+        }
+    ]
+}

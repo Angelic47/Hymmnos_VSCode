@@ -1,0 +1,78 @@
+{
+  "name": "hymmnos-language-support",
+  "displayName": "Hymmnos Language Support",
+  "description": "Language support for hymmnos parsing and syntax highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "hymn",
+      "aliases": ["Hymmnos", "hymn"],
+      "extensions": [".hymn"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "hymn",
+      "scopeName": "source.hymn",
+      "path": "./syntaxes/hymn.tmLanguage.json"
+    },
+    {
+      "scopeName": "source.emotionverb.hymn",
+      "path": "./syntaxes/emotionverb.hymn.tmLanguage.json"
+    },
+    {
+        "scopeName": "source.emotionsound.hymn",
+        "path": "./syntaxes/emotionsound.hymn.tmLanguage.json"
+    },
+    {
+        "scopeName": "source.intj.hymn",
+        "path": "./syntaxes/intj.hymn.tmLanguage.json"
+    },
+    {
+        "scopeName": "source.adverb.hymn",
+        "path": "./syntaxes/adverb.hymn.tmLanguage.json"
+    },
+    {
+        "scopeName": "source.conjunction.hymn",
+        "path": "./syntaxes/conjunction.hymn.tmLanguage.json"
+    },
+    {
+        "scopeName": "source.noun.hymn",
+        "path": "./syntaxes/noun.hymn.tmLanguage.json"
+    },
+    {
+        "scopeName": "source.verb.hymn",
+        "path": "./syntaxes/verb.hymn.tmLanguage.json"
+    },
+    {
+        "scopeName": "source.preposition.hymn",
+        "path": "./syntaxes/preposition.hymn.tmLanguage.json"
+    },
+    {
+        "scopeName": "source.adjective.hymn",
+        "path": "./syntaxes/adjective.hymn.tmLanguage.json"
+    },
+    {
+        "scopeName": "source.pronoun.hymn",
+        "path": "./syntaxes/pronoun.hymn.tmLanguage.json"
+    },
+    {
+        "scopeName": "source.symbol.hymn",
+        "path": "./syntaxes/symbol.hymn.tmLanguage.json"
+    },
+    {
+        "scopeName": "source.string.hymn",
+        "path": "./syntaxes/string.hymn.tmLanguage.json"
+    }],
+    "themes": [{
+      "label": "Hymmnos",
+      "uiTheme": "vs",
+      "path": "./themes/hymmnos-color-vs-theme.json"
+    }]
+  }
+}

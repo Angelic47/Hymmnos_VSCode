@@ -1,0 +1,210 @@
+{
+    "name": "Hymmnos Color VS Theme",
+    "type": "light",
+    "tokenColors": [
+        {
+            "settings": {
+                "foreground": "#A5A5A5"
+            }
+        },
+        {
+            "name": "Pastalie Subject Identifier",
+            "scope": "subject_identifier.emotionverb.hymn",
+            "settings": {
+                "foreground": "#007acc"
+            }
+        },
+        {
+            "name": "Pastalie Emotion Vowel",
+            "scope": "emotionvowel.emotionverb.hymn",
+            "settings": {
+                "foreground": "#15a00e",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Pastalie Emotion Range Vowel",
+            "scope": "emotionrange.emotionverb.hymn",
+            "settings": {
+                "foreground": "#006600",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Pastalie Emotion Verb",
+            "scope": "emotionverb.emotionverb.hymn",
+            "settings": {
+                "foreground": "#007acc"
+            }
+        },
+        {
+            "name": "Pastalie Want form",
+            "scope": "wantform.emotionverb.hymn",
+            "settings": {
+                "foreground": "#bf46bf",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Pastalie Noun form",
+            "scope": "nounform.emotionverb.hymn",
+            "settings": {
+                "foreground": "#e70f47"
+            }
+        },
+        {
+            "name": "Pastalie Passive form",
+            "scope": "passiveform.emotionverb.hymn",
+            "settings": {
+                "foreground": "#bf46bf"
+            }
+        },
+        {
+            "name": "Pastalie Owned form",
+            "scope": "ownership.emotionverb.hymn",
+            "settings": {
+                "foreground": "#e70f47",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Emotion Sounds LV I",
+            "scope": "level1.emotionsound.hymn",
+            "settings": {
+                "foreground": "#15a00e"
+            }
+        },
+        {
+            "name": "Emotion Sounds LV II",
+            "scope": "level2.emotionsound.hymn",
+            "settings": {
+                "foreground": "#388a34"
+            }
+        },
+        {
+            "name": "Emotion Sounds LV III",
+            "scope": "level3.emotionsound.hymn",
+            "settings": {
+                "foreground": "#607e5d"
+            }
+        },
+        {
+            "name": "Interjection",
+            "scope": "intj.hymn",
+            "settings": {
+                "foreground": "#006600",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Adverb",
+            "scope": "adverb.hymn",
+            "settings": {
+                "foreground": "#bf46bf"
+            }
+        },
+        {
+            "name": "Conjunction",
+            "scope": "conjunction.hymn",
+            "settings": {
+                "foreground": "#d6b838"
+            }
+        },
+        {
+            "name": "Noun",
+            "scope": "noun.hymn",
+            "settings": {
+                "foreground": "#e70f47"
+            }
+        },
+        {
+            "name": "Verb",
+            "scope": "verb.hymn",
+            "settings": {
+                "foreground": "#007acc",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Verb-Noun",
+            "scope": "noun.verb.hymn",
+            "settings": {
+                "foreground": "#007acc"
+            }
+        },
+        {
+            "name": "Pre-Position",
+            "scope": "preposition.hymn",
+            "settings": {
+                "foreground": "#d6b838",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "name": "Particle-Pre-Position",
+            "scope": "particle.preposition.hymn",
+            "settings": {
+                "foreground": "#d6b838",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "name": "Adjective",
+            "scope": "adjective.hymn",
+            "settings": {
+                "foreground": "#ee851d",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Adjective-Noun",
+            "scope": "noun.adjective.hymn",
+            "settings": {
+                "foreground": "#e70f47",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Adjective-Verb",
+            "scope": "verb.adjective.hymn",
+            "settings": {
+                "foreground": "#007acc",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Adjective-Adverb",
+            "scope": "adverb.adjective.hymn",
+            "settings": {
+                "foreground": "#ee851d",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Pronoun",
+            "scope": "pronoun.hymn",
+            "settings": {
+                "foreground": "#e70f47"
+            }
+        },
+        {
+            "name": "Symbol",
+            "scope": "symbol.hymn",
+            "settings": {
+                "foreground": "#0000FF"
+            }
+        },
+        {
+            "name": "String",
+            "scope": "string.hymn",
+            "settings": {
+                "foreground": "#eeabb0",
+                "fontStyle": "italic"
+            }
+        }
+    ],
+	"colors": {
+		"editor.foreground": "#A5A5A5"
+    },
+    "semanticHighlighting": true
+}

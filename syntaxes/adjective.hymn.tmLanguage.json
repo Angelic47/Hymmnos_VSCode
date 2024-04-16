@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "scopeName": "source.adjective.hymn",
+    "patterns": [
+        {
+            "match": "\\b(?i)(0|1|10|100|1000|10000|2|3|4|5|6|7|8|9|aje|alroetsue|bautifal|boh|briyua|byui|celetille|chyet|clyncye|cyuie|dauane|didalia|eazas|engua|envied|et|ewle|exali|faf|faiy|fanalea|fhauri|focs|getrra|gkgul|glansee|glasden|gool|govan|gral|grow|hao|heath|hiewi|hueaf|idesy|inferiare|jefea|kajya|layy|loss|lyrnya|marfo|meaql|mutrk|nafa|neath|nene|noglle|nyanyas|nyasri|nyasyamorina|orn|ouwua|pipit|pruna|ridalnae|ryewa|sguela|sial|titilia|tyui|tyuss|uje|vianchiel|vinan|viuy|vonn|waats|warma|wase|waze|weal|wefa|willie|wis|xorg|yanyaue|yasra|yeeel)\\b",
+            "name": "adjective.hymn"
+        },
+        {
+            "match": "\\b(?i)(ayulsa|balduo|burle|cest|clemezen|dazua|dius|fandel|ganna|gigeadeth|grrena|gyajlee|heetha|jenhah|kiala|marta|merfa|mirie|omnis|parith|pipel|rudje|shyun|spiritum|vigiga|wasara|wirtamarls|zash|zauve|zuieg)\\b",
+            "name": "noun.adjective.hymn"
+        },
+        {
+            "match": "\\b(?i)(colgen|desfel|fountaina|hieg|hierle|nhaf|rete|toe|whou)\\b",
+            "name": "verb.adjective.hymn"
+        },
+        {
+            "match": "\\b(?i)(ar|clare|erlla|goa|la|lamenzeo|li|maxim|neen|oure|rifaiah)\\b",
+            "name": "adverb.adjective.hymn"
+        }
+    ]
+}

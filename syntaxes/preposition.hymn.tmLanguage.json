@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "scopeName": "source.preposition.hymn",
+    "patterns": [
+        {
+            "match": "\\b(?i)(anw|coree|daf|dn|du|elle|ess|flip|folten|naave|oter|oz|reta|tie|tou|ware|we|ween|whai|won)\\b",
+            "name": "preposition.hymn"
+        },
+        {
+            "match": "\\b(?i)(dea|deu|how|tes|ther|ut|xel)\\b",
+            "name": "particle.preposition.hymn"
+        }
+    ]
+}
