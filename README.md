@@ -42,10 +42,10 @@ However, due to its phonetic nature, it produces beautifully lyrical effects, ma
 ## Screenshot
 
 标准律：  
-![screenshot](images/screenshot_standard.png)
+<img src="images/screenshot_standard.png" alt="screenshot" width="350" />
 
 新约律：  
-![screenshot](images/screenshot_pastalie.png)
+<img src="images/screenshot_pastalie.png" alt="screenshot" width="350" />
 
 ## 功能特性
 
